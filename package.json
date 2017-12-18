@@ -1,0 +1,16 @@
+{
+  "name": "aquos-remote-ngrok-server",
+  "version": "1.0.0",
+  "description": "AQUOSコネクトを使用して、AQUOS TVの電源を操作するための Node.js サーバーを作成します。",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shinnosuke Oka",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.2",
+    "ngrok": "^2.2.23",
+    "sharp-aquos-remote-control": "github:benburkhart1/sharp-aquos-remote-control"
+  }
+}
